@@ -295,4 +295,9 @@ MOBILE
   .menu-mobile {
     display: block;
   }
+
+  .header__search-box input::placeholder {
+    font-size: 0.85rem;
+    font-weight: var(--fw-400);
+  }
 }
