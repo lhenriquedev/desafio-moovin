@@ -301,3 +301,10 @@ MOBILE
     font-weight: var(--fw-400);
   }
 }
+
+@media (max-width: 466px) {
+  .header__search-box,
+  .right-info-container {
+    display: none;
+  }
+}
